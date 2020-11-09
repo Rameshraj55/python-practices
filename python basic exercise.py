@@ -7,7 +7,7 @@ Twinkle, twinkle, little star,
 	How I wonder what you are'''
 def poem():
     print("Twinkle, twinkle, little star,\n\tHow I wonder what you are!\n\t\tUp above the world so high,\n\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star,\n\tHow I wonder what you are!")
-
+#poem()
 #2
 def version():
     import sys
@@ -15,6 +15,7 @@ def version():
     print(sys.version)
     print('Version_info')
     print(sys.version_info)
+#version()
 
 #3
 import datetime
@@ -22,7 +23,7 @@ def date_time():
     current_time = datetime.datetime.now()
     print("\nCurrent Date and Time: ",current_time)
     print (current_time.strftime("%Y-%m-%d %H:%M:%S"))
-
+#date_time()
 #4
 from math import pi
 def area_of_circle():
