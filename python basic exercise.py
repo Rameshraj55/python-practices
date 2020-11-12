@@ -55,6 +55,29 @@ def gen_list_and_tup():
         return gen_list_and_tup()
     #print('Nums in list: ',lis)#print('Nums in tuple: ',tup)
 gen_list_and_tup()
+#7
+def extension_return():
+    ext_ip= input('Filename: ')
+    ext_dot_check = ext_ip.split('.')
+    print(ext_dot_check[-1])
+#extension_return()
+#8
+def first_last_clrs():
+    clr_list= ['Red','Green','Blue','Black','White']
+    print(f'First Color: {clr_list[0]} and Last color: {clr_list[-1]}')
+#first_last_clrs()
+#9
+def exam_schedule():
+    date= input('Date: ')
+    replace_dt = date.replace(',','/',3)
+    print(replace_dt)
+#exam_schedule()   
+#10
+def n_nn_nnn():    
+    n= int(input("Num: "))
+    n1,n2,n3=n,(n*11),(n*111) 
+    print(n1+n2+n3)
+#n_nn_nnn()
 
 
 
